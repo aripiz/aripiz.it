@@ -1,0 +1,4 @@
+baseURL = "https://aripiz.it/"
+languageCode = "it"
+title = "aripiz"
+disableKinds = ["taxonomy", "term"]

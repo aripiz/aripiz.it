@@ -1,0 +1,21 @@
+:root { --bg: #fdfdfb; --fg: #222; --dim: #777; --link: #0b4f8a; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #161616; --fg: #ddd; --dim: #888; --link: #8ab4e8; }
+}
+body {
+  max-width: 40rem; margin: 2rem auto; padding: 0 1rem;
+  background: var(--bg); color: var(--fg);
+  font: 1.125rem/1.65 Georgia, "Times New Roman", serif;
+}
+header { margin-bottom: 2.5rem; font-weight: bold; }
+header a { color: var(--fg); text-decoration: none; }
+a { color: var(--link); }
+h1 { font-size: 1.6rem; line-height: 1.25; margin-bottom: .3rem; }
+.meta, time { color: var(--dim); font-size: .9rem; }
+.posts { list-style: none; padding: 0; }
+.posts li { margin: .6rem 0; }
+.posts time { display: inline-block; min-width: 6.5rem; }
+pre, code { font-family: ui-monospace, Menlo, monospace; font-size: .9rem; }
+pre { overflow-x: auto; padding: .8rem; border: 1px solid var(--dim); }
+img { max-width: 100%; }
+footer { margin-top: 4rem; font-size: .9rem; }
