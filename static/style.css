@@ -15,7 +15,11 @@ h1 { font-size: 1.6rem; line-height: 1.25; margin-bottom: .3rem; }
 .posts { list-style: none; padding: 0; }
 .posts li { margin: .6rem 0; }
 .posts time { display: inline-block; min-width: 6.5rem; }
-pre, code { font-family: ui-monospace, Menlo, monospace; font-size: .9rem; }
+iheader, h1, h2, h3, .meta, time, footer, pre, code {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+}
+pre, code { font-size: .9rem; }
+h1 { font-size: 1.4rem; }
 pre { overflow-x: auto; padding: .8rem; border: 1px solid var(--dim); }
 img { max-width: 100%; }
 footer { margin-top: 4rem; font-size: .9rem; }
